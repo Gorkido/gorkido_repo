@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm gorkido_local_repo*
+rm gorkido_repo*
 
 echo "repo-add"
-repo-add -n -R gorkido_local_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R gorkido_repo.db.tar.gz *.pkg.tar.zst
 
 echo ""
 echo "###############################################################"
